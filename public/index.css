@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.dark {
+    background-color: #383838;
+    color: #fff;
+}
+.light {
+    background-color: #fff;
+    color: #383838;
+}
+
+.header-container {
+    background-color: #60DAFC;
+    padding-left: 7.5rem;
+    padding-bottom: 1rem;
+}
+
+.header-texts h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding-top: 1.8rem;
+}
+
+.header-texts h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-top: 1rem;
+}
+
+.header-texts h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-top: .5rem;
+    padding-bottom: .4rem;
+}
+
+.header-texts p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: .3rem;
+}
+
+.country-wrapper {
+    margin: 1rem 26rem;
+}
+
+.country-box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: .3rem;
+}
+
+.country-flag {
+    padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-flag img {
+    width: 280px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.country-name {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: .75rem;
+}
+
+.country-box p {
+    margin: 0;
+    padding: .3rem 1.3rem;
+    font-weight: 300;
+}
+
+.button-box {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.country-button {
+    background-color: #60DAFC;
+    outline: none;
+    padding: .4rem 2.5rem;
+    border: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    margin-right: .25rem;
+}
+
+.background-button {
+    background-color: #60DAFC;
+    outline: none;
+    padding: .4rem 2.5rem;
+    border: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    margin-left: .25rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #60DAFC;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h4 {
+    font-weight: 300;
+    margin: 0;
+    padding: .7rem;
+    font-size: .8rem;
+}
